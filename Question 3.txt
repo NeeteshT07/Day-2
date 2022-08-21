@@ -1,0 +1,38 @@
+Document Object: The document object represent a web page that is loaded in the browser. By accessing the document object, we can access the element in the HTML page. With the help of document objects, we can add dynamic content to our web page. The document object can be accessed with a window.document or just document.
+
+Syntax:
+
+document.property_name;
+The properties of document objects that are commonly used are listed in the below table:
+
+Properties of document:
+
+activeElement: It returns the currently active elements in the document.
+body: It returns the contents of the body element.
+anchors: It returns all <a> elements that have a name attribute.
+baseURI: It returns a string value that represents the base URI of the document.
+cookie: It returns the cookie of the current document.
+charSet: It returns a string, representing the document’s character encoding.
+defaultView: It returns the current Window Object.
+designMode: It is used to set documents as editable or read-only.
+domain: It returns the domain name of the document server.
+doctype: It returns the document’s doctype.
+embeds: It returns the collection of all embedded elements.
+URL: It returns the complete URL of the document.
+forms: It returns all the elements of the form.
+fullScreenElement: It returns the element that is currently present in full-screen mode.
+title: It returns the title element of the document.
+head: It returns the head element of the document.
+links: It returns all <area> and <a> elements that have a href attribute.
+lastModified: It returns the date and time of the current document that was last modified.
+images: It returns the collection of <img> elements in the document.
+implementation: It returns the DOMImplementation object associated with the current document.
+readyState: It returns the loading status of the current document.
+referrer: It returns the URI of the page that is linked to the current page.
+scripts: It returns all script elements present in the document.
+strictErrorChecking: It sets or returns whether strict error checking can be enforced on a document or not.
+
+Window
+The JavaScript window object sits at the top of the JavaScript Object hierarchy and represents the browser window. The window object is supported by all browsers. All global JavaScript objects , functions, and variables automatically become members of the window object. The window is the first thing that gets loaded into the browser . This window object has the majority of the properties like length, innerWidth, innerHeight, name, if it has been closed, its parents, and more.
+
+The window object represents the current browsing context . It holds things like window.location, window.history, window.screen, window.status, or the window.document . Each browser tab has its own top-level window object. Each of these windows gets its own separate global object. window.window always refers to window, but window.parent and window.top might refer to enclosing windows, giving access to other execution contexts. Moreover, the window property of a window object points to the window object itself. So the following ststements all return the same window object:
